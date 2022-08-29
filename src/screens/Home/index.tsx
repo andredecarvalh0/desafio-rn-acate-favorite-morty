@@ -24,6 +24,7 @@ export function Home() {
 
   return (
     <View style={styles.container}>
+      
       <Text style={styles.pageTitle}> Mortypedia</Text>
       <Text style={styles.normalText}> Sua enciclopédia de Mortys</Text>
       {characters && (
